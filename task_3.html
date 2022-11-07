@@ -11,7 +11,7 @@
     let colors = ['red', 'green', 'yellow', 'blue', 'violet'];
     let container = document.getElementById("container");
     for (let i = 0; i < 5; i += 1) {
-        container.innerHTML += `<div class="element">Element ${i + 1}</div>`;
+        container.innerHTML += `<div class="element" style="color: ${colors[i]}">Element ${i + 1}</div>`;
     }
 </script>
 </html>
