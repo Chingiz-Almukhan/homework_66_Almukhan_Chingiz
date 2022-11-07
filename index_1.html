@@ -2,9 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Task 1</title>
 </head>
 <body>
-
+    <div id="string-1">Ядра в вёдра, выдру в тундру!</div>
+    <div id="string-2">Выдрав с выдры в тундре гетры</div>
+    <div id="string-3">В недрах тундры, выдры в гетрах</div>
+    <div id="string-4">Вытру гетрой выдре морду</div>
+    <div id="string-5">Тырят в вёдра ядра кедров!</div>
+    <div id="string-6">Вытру выдрой ядра кедров</div>
 </body>
+<script>
+    let divs = document.getElementsByTagName('div');
+    console.log(`${divs[2].innerText}\n${divs[4].innerText}\n${divs[1].innerText}\n${divs[5].innerText}\n${divs[3].innerText}\n${divs[0].innerText}`);
+</script>
 </html>
